@@ -1,0 +1,222 @@
+@page{
+    size: A4 portrait;
+    margin: 20mm;
+}
+
+body {
+    width:   210mm;
+    height:  297mm;
+    font-family: "Montserrat", serif;
+  }
+
+header {
+    display: flex;
+    height: 200px;
+    background-color: rgb(3, 3, 99);
+    color: white;
+    h1 {
+        font-size: 45px;
+        padding: 30px;
+        font-weight: bold;
+    }
+    
+}
+
+
+
+header h2 {
+    line-height: 0;
+    position: relative;
+    bottom: 58px;
+    left: 15px;
+    margin: 10px;
+    padding: 8PX;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+/*
+.icon-In{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #0a63bc;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.letter {
+    font-size: 25px;
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    top: -22%;
+}
+*/
+.acerca_de_mi h3 {
+    
+    margin: 15px;
+    font-size: 19px;
+}
+
+.acerca_de_mi p{
+    font-size: 14px;
+    margin: 15px;
+    text-align: justify;
+}
+
+.grid_socialmedia {
+    padding: 10px;
+
+}
+
+.contenido {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.contenido a:hover {
+    transform: scale(1.2);
+}
+
+.link{
+    width: 50px;
+    height: 50px;
+    
+    
+
+}
+
+
+
+.separador_titulo h3{
+    font-size: 19px;
+    border-bottom: 1px solid;
+    padding: 0 10 0 60px;
+    position: relative;
+}
+
+h4 {
+    color: #545454;
+    font-size: 17px;
+}
+
+
+section {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 48% 50%;
+    padding: 10px;
+}
+
+section ul {
+    font-size: 14px;
+}
+
+.medio{
+    
+    height: 1px;
+    background-color: black;
+    width: 80%;
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    
+}
+
+
+.study {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+    gap: 15px;
+    position: relative;
+    bottom: 15px;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 15px;
+
+}
+
+.educacion h3{
+    font-size: 19px;
+    position: relative;
+    
+    left: 20px;
+}
+
+.educacion p{
+    font-size: 14px;
+    position: relative;
+    bottom: 45px;
+    
+
+}
+
+.study h5{
+    font-size: 15px;
+    
+    
+}
+
+.study div{
+    margin-top: 10px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+        
+
+footer{
+    
+    height: 60px;
+    background-color: rgb(3, 3, 99);
+    width: 100%;
+    
+  
+}
